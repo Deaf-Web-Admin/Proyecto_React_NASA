@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+:root {
+	--Color1: #406082;
+	--Color2: #ff4727;
+	--Color3: #ffffff;
+	--Color4: #fffbfa;
+	font-family: "Roboto", sans-serif;
+}
+body {
+	background-color: var(--Color3);
+	background-image: url("https://i.stack.imgur.com/TEBeF.gif");
+}

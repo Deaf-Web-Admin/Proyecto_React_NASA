@@ -1,0 +1,50 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 15vh;
+}
+.titleSmall{
+    display: none;
+}
+header img{
+    height: 15vh;
+}
+header H2{
+text-align: center;
+color: white;
+}
+
+main{
+    width: 100vw;
+    height: 80vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    color: white;
+    text-align: center;
+}
+
+main input[type="date"]{
+    width: 200px;
+    background-color: white;
+    font-size: large;
+}
+@media only screen and (max-width: 375px) {
+header{
+    height: 15vh;
+}
+.titleSmall{
+    display: flex;
+}
+.titleBig{
+    display: none;
+}
+
+main{
+    height: 80vh;
+}
+}

@@ -1,2 +1,2 @@
-# Proyecto_React_NASA
-Practica de React, usando API de NASA
+# AMVICU%20 linux.user@techie.com
+
